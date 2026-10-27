@@ -203,3 +203,5 @@ Use `--variant fixed-u` for the fixed-framework configuration. Each launch creat
 | [`docs/`](docs/) · [`evidence/`](evidence/) | Methods, operation, validation and small sanitized records |
 
 Original tests share fixtures through `work.*`, so that directory name is retained. Full research runs require external data and model configuration; private databases, large checkpoints and raw traces are not distributed. See [Provenance](docs/provenance.md) for source identity and preparation boundaries, and [Third-party Notices](THIRD_PARTY_NOTICES.md) for dependencies and reuse.
+
+Credential configuration and release checks: [Security guide](docs/security.md).

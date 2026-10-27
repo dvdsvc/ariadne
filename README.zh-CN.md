@@ -203,3 +203,5 @@ uv run --locked python -B -m examples.run_agent \
 | [`docs/`](docs/) · [`evidence/`](evidence/) | 方法、运行与验证说明，以及小型脱敏记录 |
 
 原测试通过 `work.*` 共享夹具，因此保留了这一目录名。完整研究需要外部数据及模型配置，私有数据库、大体积检查点和原始轨迹不随仓库分发。源码身份与整理边界见[Provenance](docs/provenance.md)，依赖和复用说明见[Third-party Notices](THIRD_PARTY_NOTICES.md)。
+
+凭据配置与发布前检查：[安全说明](docs/security.md)。
