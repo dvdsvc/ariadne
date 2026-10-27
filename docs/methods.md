@@ -39,7 +39,11 @@ Scientific text and identity are separated. Actual tool calls create objective r
 
 Hashes and references prove which stored artifact an output cites. They do not prove that an LLM's scientific interpretation is correct or that all relevant evidence has been acquired. Numerical routines and their input binding are checked separately from the model's interpretation.
 
-## Latest local variant: fixed-U parallel explanation assessment
+## Fixed-U: frozen research framework and parallel assessment
+
+Fixed-U holds U's initial research framework constant during execution. The author intends this configuration for problems with an established research paradigm and clear evidence dimensions, where carrying out a systematic investigation on new data can still have substantial scientific value. The emphasis is completing such an investigation within its framework, rather than using an unrestricted agenda-update loop.
+
+The fixed object is the explanation-assessment agenda, not the scientific answer or every technical choice. R retains method and parameter selection and approved local plan revision inside D's task. U's final evidence-matrix normalization does not reopen the research framework: the active graph has no loop back to `u_plan`, and the matrix contract prohibits creating C/T items or prescribing more work. These are implemented scope choices; comparative research yield and execution savings remain evaluation questions.
 
 ```mermaid
 flowchart LR
