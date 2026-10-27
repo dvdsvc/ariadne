@@ -1,0 +1,16 @@
+{
+  "mode": "real calculations on six synthetic rows; no model API",
+  "rows": 6,
+  "weighted_age_ma": 103.0,
+  "one_sigma_ma": 0.5773502691896257,
+  "kde_status": "computed",
+  "runtime_evidence_ids": [
+    "read-six",
+    "weighted-six",
+    "kde-six"
+  ],
+  "calculation_upstream_ids": [
+    "read-six"
+  ],
+  "database_unchanged": true
+}

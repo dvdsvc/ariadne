@@ -1,0 +1,231 @@
+{
+  "snapshot_date": "2026-10-26",
+  "scope": "Archival execution evidence, not a benchmark, an independent scientific validation, or a rerun of the current source revision.",
+  "resumes_are_not_independent_trials": true,
+  "overview_snapshots": [
+    {
+      "source_file": "fixed_u_trace_20260908_113841_overview.json",
+      "sha256": "9234121797ca9b4c63160f83e433acc6ffe75adc29f41d716f9fa04a1a0a33f8",
+      "family": "fixed-u",
+      "model": "glm-5.3-flash",
+      "status": "running",
+      "completed_steps": 1,
+      "open_steps": 0,
+      "research_episode_count": 0
+    },
+    {
+      "source_file": "fixed_u_trace_20260908_113841_resume_1_overview.json",
+      "sha256": "c04ecc0a8cbb5e0eb04f38d71e4c8c6ccfbcdb261ff8f75df36cdda766133e1a",
+      "family": "fixed-u",
+      "model": "glm-5.3-flash",
+      "status": "running",
+      "completed_steps": 0,
+      "open_steps": 0,
+      "research_episode_count": 0
+    },
+    {
+      "source_file": "fixed_u_trace_20260908_113841_resume_2_overview.json",
+      "sha256": "e31c165639e3eb6265f9ee5d682aa87981ffe5722dacefca9c109a1fc83fbf51",
+      "family": "fixed-u",
+      "model": "glm-5.3-flash",
+      "status": "failed",
+      "completed_steps": 1,
+      "open_steps": 0,
+      "research_episode_count": 2
+    },
+    {
+      "source_file": "fixed_u_trace_20260908_113841_resume_3_overview.json",
+      "sha256": "8557b3fef8a95da9528544482d0eef73b5dcdbe348cc01d14d46ac24299ca05d",
+      "family": "fixed-u",
+      "model": "glm-5.3-flash",
+      "status": "running",
+      "completed_steps": 0,
+      "open_steps": 0,
+      "research_episode_count": 0
+    },
+    {
+      "source_file": "fixed_u_trace_20260908_113841_resume_4_overview.json",
+      "sha256": "49db536ca2f76a8531f928f73abc57bcafcc3a18ab614f1a7bbe515318b22fc4",
+      "family": "fixed-u",
+      "model": "glm-5.3-flash",
+      "status": "failed",
+      "completed_steps": 151,
+      "open_steps": 5,
+      "research_episode_count": 11
+    },
+    {
+      "source_file": "mix_tasks_trace_20260903_193956_overview.json",
+      "sha256": "fae21325c99dfad965dfa1a4ed0d879a7a19f26a56adc9adeda9f06e6fca2e33",
+      "family": "mix",
+      "model": "deepseek-v4-flash",
+      "status": "completed",
+      "completed_steps": 88,
+      "open_steps": 0,
+      "research_episode_count": 4
+    },
+    {
+      "source_file": "mix_tasks_trace_20260903_204242_overview.json",
+      "sha256": "4d18d50f828516285bd22de976e6782ec1e964fe8309c51a01e952607fc72547",
+      "family": "mix",
+      "model": "deepseek-v4-flash",
+      "status": "failed",
+      "completed_steps": 54,
+      "open_steps": 0,
+      "research_episode_count": 2
+    },
+    {
+      "source_file": "mix_tasks_trace_20260903_205503_overview.json",
+      "sha256": "0d286a323542a8c7ec9352fa5d885c3599b1f15b0af29bf90d2a54f03639aa1d",
+      "family": "mix",
+      "model": "deepseek-v4-flash",
+      "status": "interrupted",
+      "completed_steps": 95,
+      "open_steps": 2,
+      "research_episode_count": 5
+    },
+    {
+      "source_file": "mix_tasks_trace_20260903_212857_overview.json",
+      "sha256": "6a3fe5071d7b51f7f637da5b5bb76c614416debe818d512b030ad83f3ca89540",
+      "family": "mix",
+      "model": "deepseek-v4-flash",
+      "status": "interrupted",
+      "completed_steps": 4,
+      "open_steps": 2,
+      "research_episode_count": 1
+    },
+    {
+      "source_file": "mix_tasks_trace_20260903_214036_overview.json",
+      "sha256": "46449ae256deb97c6ceaf64a50efa208587d6291c8227ba74ba3084ca57c4329",
+      "family": "mix",
+      "model": "deepseek-v4-flash",
+      "status": "failed",
+      "completed_steps": 40,
+      "open_steps": 0,
+      "research_episode_count": 2
+    },
+    {
+      "source_file": "mix_tasks_trace_20260903_2220_lhasa_models_resume_overview.json",
+      "sha256": "d035ff28bd00d67914d6bd71cc0417ab325f9743b34d227f9d4e6cb7a9167a4c",
+      "family": "mix",
+      "model": "deepseek-v4-flash",
+      "status": "interrupted",
+      "completed_steps": 42,
+      "open_steps": 2,
+      "research_episode_count": 2
+    },
+    {
+      "source_file": "mix_tasks_trace_20260903_2231_lhasa_models_restart_overview.json",
+      "sha256": "217cd3c6dec42fd591b9dfb3cbf04b08b97c722b3644199d3e2d58b5522021f3",
+      "family": "mix",
+      "model": "deepseek-v4-flash",
+      "status": "failed",
+      "completed_steps": 160,
+      "open_steps": 0,
+      "research_episode_count": 8
+    }
+  ],
+  "selected_raw_trace_audits": [
+    {
+      "source_file": "mix_tasks_trace_20260903_193956.jsonl",
+      "sha256": "d521ef736f08e9546e3141f56bcb4fc23031b5e72046691e0d6c9731bfe6dcf0",
+      "event_records": 178,
+      "completed_task_nodes": {
+        "execute_stage": 20,
+        "tools": 20,
+        "review_progress": 19,
+        "finalize": 4,
+        "researcher": 4,
+        "department": 6,
+        "claim_task": 3,
+        "plan_local_dag": 3,
+        "department_plan_review": 3,
+        "updater": 3,
+        "planner": 2,
+        "writer": 1
+      },
+      "failed_task_nodes": {},
+      "observed_tool_names": [
+        "archive__read",
+        "data__tool",
+        "sandbox__python"
+      ],
+      "tool_name_counts_are_not_unique_calls": true,
+      "writer_nonempty": true,
+      "writer_characters": 2513,
+      "writer_sha256": "1bb46b0c3a0b1c08c93f660f5eebe3dca23ee5afc0a0490cbdb2a1ecf4b73a9b",
+      "launch_question_matches_recovered_constitution": false,
+      "structural_errors": [],
+      "source_revision_bound_to_trace": false
+    },
+    {
+      "source_file": "mix_tasks_trace_20260903_2231_lhasa_models_restart.jsonl",
+      "sha256": "f0ae813ad760b040512f19c66ba5e7d648cc62d128e484364752d4b70f1e3556",
+      "event_records": 326,
+      "completed_task_nodes": {
+        "finalize": 7,
+        "researcher": 7,
+        "department": 8,
+        "claim_task": 7,
+        "plan_local_dag": 7,
+        "department_plan_review": 7,
+        "execute_stage": 41,
+        "tools": 41,
+        "review_progress": 33,
+        "updater": 1,
+        "planner": 1
+      },
+      "failed_task_nodes": {
+        "review_progress": 1,
+        "researcher": 1
+      },
+      "observed_tool_names": [
+        "archive__read",
+        "data__tool",
+        "sandbox__python"
+      ],
+      "tool_name_counts_are_not_unique_calls": true,
+      "writer_nonempty": false,
+      "writer_characters": 0,
+      "writer_sha256": null,
+      "launch_question_matches_recovered_constitution": true,
+      "structural_errors": [],
+      "source_revision_bound_to_trace": false
+    },
+    {
+      "source_file": "fixed_u_trace_20260908_113841_resume_4.jsonl",
+      "sha256": "15c7bc3d0b02b1623d93dd6ff719cbf624b330454871f0298da14ddda6f98a5f",
+      "event_records": 323,
+      "completed_task_nodes": {
+        "department_plan": 2,
+        "claim_task": 9,
+        "plan_local_dag": 8,
+        "department_plan_review": 8,
+        "execute_stage": 39,
+        "tools": 39,
+        "review_progress": 38,
+        "finalize": 4,
+        "researcher": 4
+      },
+      "failed_task_nodes": {
+        "plan_local_dag": 1,
+        "researcher": 3,
+        "execute_stage": 2,
+        "cognitive_project": 1
+      },
+      "observed_tool_names": [
+        "archive__read",
+        "data__tool",
+        "sandbox__python"
+      ],
+      "tool_name_counts_are_not_unique_calls": true,
+      "writer_nonempty": false,
+      "writer_characters": 0,
+      "writer_sha256": null,
+      "launch_question_matches_recovered_constitution": true,
+      "structural_errors": [
+        "R plan dependencies must reference other stages in the same DAG"
+      ],
+      "source_revision_bound_to_trace": false
+    }
+  ]
+}

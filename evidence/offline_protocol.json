@@ -1,0 +1,16 @@
+{
+  "mode": "scripted protocol fixture; no model API; no measured pendulum result",
+  "cognitive_projects": 2,
+  "technical_packets": 2,
+  "department_conclusions": 2,
+  "matrix_rows": 2,
+  "tool_modes_executed": [
+    "group_difference",
+    "leave_one_out"
+  ],
+  "writer_reached": true,
+  "matrix_explanations": [
+    "振幅本身导致当前样本的周期差异。",
+    "样本选择结构而非振幅本身造成观察到的周期差异。"
+  ]
+}

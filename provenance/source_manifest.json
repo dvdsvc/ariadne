@@ -1,0 +1,391 @@
+{
+  "format": 1,
+  "snapshot_date": "2026-10-26",
+  "git_history": "Neither source directory is an independent Git checkout; file hashes establish snapshot identity, not personal authorship.",
+  "files": [
+    {
+      "path": "src/thin_epistemic_research_agent.py",
+      "source_group": "epistemic-agent",
+      "source_path": "outputs/thin_epistemic_research_agent.py",
+      "source_sha256": "72b09cfa00e5c0fc4b4a0516f62e5557bc36294c0f97ce11044865f228aa7720",
+      "sha256": "72b09cfa00e5c0fc4b4a0516f62e5557bc36294c0f97ce11044865f228aa7720",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/mix_epistemic_research_agent.py",
+      "source_group": "epistemic-agent",
+      "source_path": "outputs/mix_epistemic_research_agent.py",
+      "source_sha256": "5ba2bcd65313457e87bc3d61cad72ac1f3fe1f43e0026581652788df3d1e2d7e",
+      "sha256": "5ba2bcd65313457e87bc3d61cad72ac1f3fe1f43e0026581652788df3d1e2d7e",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/fixed_u_epistemic_research_agent.py",
+      "source_group": "epistemic-agent",
+      "source_path": "outputs/fixed_u_epistemic_research_agent.py",
+      "source_sha256": "f3868c00940a7bd4f420e9565dd729535d9d1d2a703010f36995ba7c2284a366",
+      "sha256": "f3868c00940a7bd4f420e9565dd729535d9d1d2a703010f36995ba7c2284a366",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_infrastructure.py",
+      "source_group": "epistemic-agent",
+      "source_path": "outputs/scientific_infrastructure.py",
+      "source_sha256": "0378762cbe1905cf96b24ada0e0e6b503c1c4a60740df3e1321bb91d831d4d3d",
+      "sha256": "24bab3e7379f35b8a3e5a06c0560cc6a73a6d7ef7260007509d49378752f3583",
+      "copy_kind": "portable-default-paths-only"
+    },
+    {
+      "path": "work/test_thin_epistemic_research_agent.py",
+      "source_group": "epistemic-agent",
+      "source_path": "work/test_thin_epistemic_research_agent.py",
+      "source_sha256": "6ec38f4f69b86734f9b2f9bfd5407c3e36e1ec0add95c964415f72810561d880",
+      "sha256": "6ec38f4f69b86734f9b2f9bfd5407c3e36e1ec0add95c964415f72810561d880",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "work/test_mix_epistemic_research_agent.py",
+      "source_group": "epistemic-agent",
+      "source_path": "work/test_mix_epistemic_research_agent.py",
+      "source_sha256": "f749e9e094035a757b279109d035ef33dfee8a83fde024be1fd8cb50659839a5",
+      "sha256": "f749e9e094035a757b279109d035ef33dfee8a83fde024be1fd8cb50659839a5",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "work/test_fixed_u_epistemic_research_agent.py",
+      "source_group": "epistemic-agent",
+      "source_path": "work/test_fixed_u_epistemic_research_agent.py",
+      "source_sha256": "45c99d3b7bdc55a03597bfffda5d85ccd68239f790672dc8107a9c886df062bc",
+      "sha256": "45c99d3b7bdc55a03597bfffda5d85ccd68239f790672dc8107a9c886df062bc",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "work/test_provider_cache_adapter.py",
+      "source_group": "epistemic-agent",
+      "source_path": "work/test_provider_cache_adapter.py",
+      "source_sha256": "11ac1b8ed0386cd77919cace08ee7eeae5c16d9e55218f1a26f6b94e8c8e4f1a",
+      "sha256": "11ac1b8ed0386cd77919cace08ee7eeae5c16d9e55218f1a26f6b94e8c8e4f1a",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "work/test_scientific_infrastructure.py",
+      "source_group": "epistemic-agent",
+      "source_path": "work/test_scientific_infrastructure.py",
+      "source_sha256": "69dbd72ec5cef9e199833b93d34d733e02bf1e00b377c65599496ea3df743852",
+      "sha256": "69dbd72ec5cef9e199833b93d34d733e02bf1e00b377c65599496ea3df743852",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "work/lightweight_langgraph_trace.py",
+      "source_group": "epistemic-agent",
+      "source_path": "work/lightweight_langgraph_trace.py",
+      "source_sha256": "1e401d0e59f98325244391d63612006b96f0e615db83cd1cfea777da4532bd54",
+      "sha256": "1e401d0e59f98325244391d63612006b96f0e615db83cd1cfea777da4532bd54",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/__init__.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/__init__.py",
+      "source_sha256": "03940321450acefe91905dc719da69c60bdb5361c7942d21feac56d2c40bbaf5",
+      "sha256": "03940321450acefe91905dc719da69c60bdb5361c7942d21feac56d2c40bbaf5",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/adjudication.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/adjudication.py",
+      "source_sha256": "3bc80fda6f4d36de31fc405daac5cc6a53e64b4fbf4083b7ffcecb1ce255e9a7",
+      "sha256": "3bc80fda6f4d36de31fc405daac5cc6a53e64b4fbf4083b7ffcecb1ce255e9a7",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/aiq_grounding.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/aiq_grounding.py",
+      "source_sha256": "10bfce660ed9bff2ab6dfbbf63b598377430fa5e7922be254bdcbdcab750a67d",
+      "sha256": "10bfce660ed9bff2ab6dfbbf63b598377430fa5e7922be254bdcbdcab750a67d",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/cli.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/cli.py",
+      "source_sha256": "cfceeba5e277f77f6d80002861fb782c74f886cd19388a802d6590bbd8feba36",
+      "sha256": "cfceeba5e277f77f6d80002861fb782c74f886cd19388a802d6590bbd8feba36",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/conclusion.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/conclusion.py",
+      "source_sha256": "4fe43b084d10c612d3b8b38074ef634a0a59343feffcb8fd272d4cba0b3c2bd5",
+      "sha256": "4fe43b084d10c612d3b8b38074ef634a0a59343feffcb8fd272d4cba0b3c2bd5",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/contracts.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/contracts.py",
+      "source_sha256": "554edc557d054848e2fb7ecd5dea8a0d713b38b8b0082ee9cb72d9a14a20efda",
+      "sha256": "554edc557d054848e2fb7ecd5dea8a0d713b38b8b0082ee9cb72d9a14a20efda",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/data_adapters/__init__.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/data_adapters/__init__.py",
+      "source_sha256": "f9c14ae7f2ad8184dd4f267a8aa31c0382103e375d4639ed8bcbf60522b2bc2c",
+      "sha256": "f9c14ae7f2ad8184dd4f267a8aa31c0382103e375d4639ed8bcbf60522b2bc2c",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/data_handles.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/data_handles.py",
+      "source_sha256": "3275326f01f5b1317c1039c8e4eafaa78ce07f49aae5be8e88cf47516c4bfdf3",
+      "sha256": "3275326f01f5b1317c1039c8e4eafaa78ce07f49aae5be8e88cf47516c4bfdf3",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/data_operation_contract.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/data_operation_contract.py",
+      "source_sha256": "0f323e0e64b8c571b314a052d8629596561028eb974ea82dc21546ecd26ab31a",
+      "sha256": "0f323e0e64b8c571b314a052d8629596561028eb974ea82dc21546ecd26ab31a",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/data_tool.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/data_tool.py",
+      "source_sha256": "9de3ab667608cb939a5fb466897ef82cf25b8116b60ea06a1c99bae1f71d25a9",
+      "sha256": "9de3ab667608cb939a5fb466897ef82cf25b8116b60ea06a1c99bae1f71d25a9",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/deepseek_schemas.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/deepseek_schemas.py",
+      "source_sha256": "970c735aaa559e4706c47cd8e1ba95a17b2e69c993a6313454e4a08f5a1ded26",
+      "sha256": "970c735aaa559e4706c47cd8e1ba95a17b2e69c993a6313454e4a08f5a1ded26",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/evidence_contract.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/evidence_contract.py",
+      "source_sha256": "242eb202daf03871d597ca7bda5bf9a8f422abb1c9ec75a9ef7f6b239088694c",
+      "sha256": "242eb202daf03871d597ca7bda5bf9a8f422abb1c9ec75a9ef7f6b239088694c",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/evolver.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/evolver.py",
+      "source_sha256": "8dc96acad36c16265062e4bf665abebf143ffdb65a2d70f73b28db7759939b06",
+      "sha256": "8dc96acad36c16265062e4bf665abebf143ffdb65a2d70f73b28db7759939b06",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/external.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/external.py",
+      "source_sha256": "0ff88547a66bee7c675bf2225b163303a6979dbe09a488d45096db5c8e64de53",
+      "sha256": "0ff88547a66bee7c675bf2225b163303a6979dbe09a488d45096db5c8e64de53",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/global_zircon.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/global_zircon.py",
+      "source_sha256": "74e85c123a4cbb070e32f387715367688f9cd36e7e12eb9d83cd82e66348cc1d",
+      "sha256": "74e85c123a4cbb070e32f387715367688f9cd36e7e12eb9d83cd82e66348cc1d",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/judge.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/judge.py",
+      "source_sha256": "f17e8e56c987e6a6df76ca96150b9f5ff59311101e78d28029d9bd90245cb33d",
+      "sha256": "f17e8e56c987e6a6df76ca96150b9f5ff59311101e78d28029d9bd90245cb33d",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/ledger.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/ledger.py",
+      "source_sha256": "5de745a634d9c00ab3a17d0b562b10d30bee79f355d2c0a2e3fa7d43badbdb65",
+      "sha256": "5de745a634d9c00ab3a17d0b562b10d30bee79f355d2c0a2e3fa7d43badbdb65",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/node_contracts.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/node_contracts.py",
+      "source_sha256": "6fb113469b39656be7ec4a1ff2e5aaa5645d36b1de69f83229ab761be075cc86",
+      "sha256": "6fb113469b39656be7ec4a1ff2e5aaa5645d36b1de69f83229ab761be075cc86",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/opportunistic.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/opportunistic.py",
+      "source_sha256": "d3a30982bc8a8852c11b377ee59f3741a7dacc92a8b60961504975b00ef7ddf9",
+      "sha256": "d3a30982bc8a8852c11b377ee59f3741a7dacc92a8b60961504975b00ef7ddf9",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/persistence.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/persistence.py",
+      "source_sha256": "775eedf4417111b3df821868f5739bf2827f75b3bb58578da2594d01953caeb8",
+      "sha256": "775eedf4417111b3df821868f5739bf2827f75b3bb58578da2594d01953caeb8",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/plan_graph.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/plan_graph.py",
+      "source_sha256": "86e7b9e971ae44337c9896e5cb39715af90338d7886ebf9f8c16e10cc56b2310",
+      "sha256": "86e7b9e971ae44337c9896e5cb39715af90338d7886ebf9f8c16e10cc56b2310",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/planner.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/planner.py",
+      "source_sha256": "6875a33cb8e2c00e477752770f4e20c008951403f27bc2e4087650be88105ee2",
+      "sha256": "6875a33cb8e2c00e477752770f4e20c008951403f27bc2e4087650be88105ee2",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/question.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/question.py",
+      "source_sha256": "8d72675bb2ac7d425e552a4951015626a380c1d0ae536bddf8303f096e51e592",
+      "sha256": "8d72675bb2ac7d425e552a4951015626a380c1d0ae536bddf8303f096e51e592",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/reasoning.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/reasoning.py",
+      "source_sha256": "b6309c6c5bdc3784c7b3371f2bdf2bed2b70d2c471a4ed024086eb73589f6947",
+      "sha256": "b6309c6c5bdc3784c7b3371f2bdf2bed2b70d2c471a4ed024086eb73589f6947",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/registry.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/registry.py",
+      "source_sha256": "e53113012dcd1d650698dcac42df26e7887fc0a10c754a61baa6c1b5dfd0319d",
+      "sha256": "e53113012dcd1d650698dcac42df26e7887fc0a10c754a61baa6c1b5dfd0319d",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/relational_engine.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/relational_engine.py",
+      "source_sha256": "3b77ccef20a221d857c7238347d95a974c28a16d8a8934f35ede48ccbb29946f",
+      "sha256": "3b77ccef20a221d857c7238347d95a974c28a16d8a8934f35ede48ccbb29946f",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/research.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/research.py",
+      "source_sha256": "09975e3038aaac05bac56176543ca5a6ab42b27b790699aa7fc48b39006435bc",
+      "sha256": "09975e3038aaac05bac56176543ca5a6ab42b27b790699aa7fc48b39006435bc",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/resilience.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/resilience.py",
+      "source_sha256": "e5c23aa1780df8118bf9739fab1f409d5a66b5cecd4b6b2955668972514b0dfe",
+      "sha256": "e5c23aa1780df8118bf9739fab1f409d5a66b5cecd4b6b2955668972514b0dfe",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/runtime.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/runtime.py",
+      "source_sha256": "522988bf21a45e6a7cd0e105f596ac8f401204f61ffaef7be3cce3ff94ae26f7",
+      "sha256": "522988bf21a45e6a7cd0e105f596ac8f401204f61ffaef7be3cce3ff94ae26f7",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/scope.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/scope.py",
+      "source_sha256": "e783365556e3fed2bfe244fee9ddde4beda09f7bc56b84dcc4e29f1ff909be15",
+      "sha256": "e783365556e3fed2bfe244fee9ddde4beda09f7bc56b84dcc4e29f1ff909be15",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/scout.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/scout.py",
+      "source_sha256": "f689eeca0d35c647bf5690e5f0c2d3a8abe9094a9d9df8777fc095032d2950a4",
+      "sha256": "f689eeca0d35c647bf5690e5f0c2d3a8abe9094a9d9df8777fc095032d2950a4",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/skills.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/skills.py",
+      "source_sha256": "a4196c254b51553a2d1cbe22c10e8bae85a72cc9e21dc52f7c86864fb3d900e0",
+      "sha256": "a4196c254b51553a2d1cbe22c10e8bae85a72cc9e21dc52f7c86864fb3d900e0",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/sources.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/sources.py",
+      "source_sha256": "db2ffdaa1c120c596c7753f5850644166456f9a8fb47c9285188c1ce0f3280c2",
+      "sha256": "db2ffdaa1c120c596c7753f5850644166456f9a8fb47c9285188c1ce0f3280c2",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/tabular.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/tabular.py",
+      "source_sha256": "0b27761c1e389ffd8fd0dcda68aec7e50c0dc8c6df02b3d2e89ff49ff997da25",
+      "sha256": "0b27761c1e389ffd8fd0dcda68aec7e50c0dc8c6df02b3d2e89ff49ff997da25",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/tools_builtin.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/tools_builtin.py",
+      "source_sha256": "f11e5c35c65a7efb6f4d53026b8dfa577a58c87c5dcc8198653ded1abea50443",
+      "sha256": "f11e5c35c65a7efb6f4d53026b8dfa577a58c87c5dcc8198653ded1abea50443",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/validation.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/validation.py",
+      "source_sha256": "e861383831eda16a5aafcff376c36160771d2bdef4563323db44069dcc7ce42e",
+      "sha256": "e861383831eda16a5aafcff376c36160771d2bdef4563323db44069dcc7ce42e",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/workflow.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/workflow.py",
+      "source_sha256": "c5f40c8a575587fbac976208d5c25cb44be787ed9b4aa2f2b27f6a4d7e3feb04",
+      "sha256": "c5f40c8a575587fbac976208d5c25cb44be787ed9b4aa2f2b27f6a4d7e3feb04",
+      "copy_kind": "byte-identical"
+    },
+    {
+      "path": "src/scientific_research_agent/writer.py",
+      "source_group": "scientific-substrate",
+      "source_path": "src/scientific_research_agent/writer.py",
+      "source_sha256": "1c7c681294824068033ba53b7520cc61521ce52056257198f02d400c19d47a9b",
+      "sha256": "1c7c681294824068033ba53b7520cc61521ce52056257198f02d400c19d47a9b",
+      "copy_kind": "byte-identical"
+    }
+  ]
+}

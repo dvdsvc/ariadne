@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "platform": "local macOS",
+  "python": "3.12.13",
+  "uv": "0.11.16",
+  "original_tests": {
+    "command": "uv run --locked python -B -m unittest discover -s work -p 'test_*.py'",
+    "tests": 64,
+    "failures": 0,
+    "errors": 0,
+    "returncode": 0,
+    "private_log_sha256": "2784be434197e0c57ce37c32d7488ef3b0b617207c4edaebc6630b124da69c70"
+  },
+  "dependency_compatibility": {
+    "initial_duckdb": "2.0.0",
+    "initial_errors": 9,
+    "original_environment_duckdb": "1.5.5",
+    "verified_duckdb": "1.5.6",
+    "constraint": ">=1.2,<2"
+  },
+  "examples_and_interface": [
+    {
+      "command": "uv run --locked python -B -m examples.offline_protocol",
+      "returncode": 0,
+      "evidence": "offline_protocol.json"
+    },
+    {
+      "command": "uv run --locked python -B -m examples.offline_science",
+      "returncode": 0,
+      "evidence": "offline_science.json"
+    },
+    {
+      "command": "uv run --locked python -B -m examples.run_agent --help",
+      "returncode": 0
+    }
+  ],
+  "source_manifest_entries": 48,
+  "byte_identical_copies": 47,
+  "source_adaptations": [
+    "scientific_infrastructure.py default database path block only"
+  ],
+  "hosted_ci_executed": false,
+  "live_model_api_called": false,
+  "published": false
+}

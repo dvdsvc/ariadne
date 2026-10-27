@@ -1,0 +1,17 @@
+name: Local research checks
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.11.16'
+          python-version: '3.12'
+      - run: uv sync --locked
+      - run: uv run --locked python -B -m unittest discover -s work -p 'test_*.py'
+      - run: uv run --locked python -B -m examples.offline_protocol
+      - run: uv run --locked python -B -m examples.offline_science
+      - run: uv run --locked python -B -m examples.run_agent --help
+      - run: uv run --locked python -B scripts/check_repository.py
