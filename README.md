@@ -1,10 +1,10 @@
-# DeepResearcher: Scoped Authority for Long-Horizon Scientific Research
+# Ariadne
 
-**Long-Horizon Research Agents · Scoped Authority · Recoverable Execution**
+**Exploring Scoped Authority and Recoverable Execution in Long-Horizon Research Agents.**
 
 **English** · [简体中文](README.zh-CN.md)
 
-DeepResearcher is a multi-agent research prototype for long-horizon scientific investigation, with geochronology database analysis as its main application. It turns questions into data investigations and scientific calculations, accumulates evidence, and uses that evidence to revise understanding and produce a report.
+Ariadne is a multi-agent research prototype for long-horizon scientific investigation, with geochronology database analysis as its main application. It turns questions into data investigations and scientific calculations, accumulates evidence, and uses that evidence to revise understanding and produce a report.
 
 The central question is: **When research involves many dependent steps, how can local errors be contained and execution remain inspectable, correctable and recoverable?** The architecture draws on separation of responsibilities, delegated authority and feedback to assign different decision boundaries to scientific interpretation, research planning, technical execution and evidence management.
 
@@ -22,7 +22,7 @@ The project examines this gap between local task capability and long-horizon rel
 
 Giving every node planning, execution, evaluation and delegation capabilities is a flexible recursive design. For scientific work, my concern is the decision boundary: whether technical execution may reinterpret the research goal, when a local result can update scientific understanding, and at which level an error should be corrected.
 
-DeepResearcher therefore gives roles different information, authority and output responsibilities. The research layer decides what to investigate; the technical layer decides how to carry out an authorized investigation; evidence records preserve the basis connecting them. The design makes explicit what each role may change so that its outputs can be checked.
+Ariadne therefore gives roles different information, authority and output responsibilities. The research layer decides what to investigate; the technical layer decides how to carry out an authorized investigation; evidence records preserve the basis connecting them. The design makes explicit what each role may change so that its outputs can be checked.
 
 ## 2. Core Design: Boundaries for Different Decisions
 
