@@ -6,9 +6,9 @@
 
 Ariadne is a multi-agent research prototype for long-horizon scientific investigation, with geochronology database analysis as its main application. It turns questions into data investigations and scientific calculations, accumulates evidence, and uses that evidence to revise understanding and produce a report.
 
-The central question is: **When research involves many dependent steps, how can local errors be contained and execution remain inspectable, correctable and recoverable?** The architecture draws on separation of responsibilities, delegated authority and feedback to assign different decision boundaries to scientific interpretation, research planning, technical execution and evidence management.
+The central question is: **When research involves many dependent steps, how can information loss between agents be reduced, local errors be contained, and execution remain inspectable, correctable and recoverable?** The architecture draws on separation of responsibilities, delegated authority and feedback to assign different decision boundaries to scientific interpretation, research planning, technical execution and evidence management.
 
-## 1. Motivation: Error Accumulation in Long Execution Chains
+## 1. Motivation: Error Accumulation and Information Loss
 
 ### 1.1 How can local errors enter later decisions?
 
@@ -18,11 +18,15 @@ For example, if an early age-distribution peak is directly interpreted as a geol
 
 The project examines this gap between local task capability and long-horizon reliability. Relevant problems include goal drift, repeated investigation, unchecked conclusions re-entering context, and difficulty determining which completed work remains valid after an error.
 
+Multi-agent collaboration also involves lossy transmission. As tasks pass through delegation, execution and reporting, repeated reformulation can compress or omit research goals, scope conditions and key evidence. Later decisions may therefore receive altered information even when an individual step produces no incorrect answer.
+
 ### 1.2 Why use asymmetric roles?
 
 Giving every node planning, execution, evaluation and delegation capabilities is a flexible recursive design. For scientific work, my concern is the decision boundary: whether technical execution may reinterpret the research goal, when a local result can update scientific understanding, and at which level an error should be corrected.
 
 Ariadne therefore gives roles different information, authority and output responsibilities. The research layer decides what to investigate; the technical layer decides how to carry out an authorized investigation; evidence records preserve the basis connecting them. The design makes explicit what each role may change so that its outputs can be checked.
+
+This asymmetric structure also explores whether information loss at role boundaries can be reduced: explicit task constraints preserve research intent, structured result packets carry conclusions and their scope, and retrievable tool records reduce reliance on successive natural-language summaries.
 
 ## 2. Core Design: Boundaries for Different Decisions
 

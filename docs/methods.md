@@ -6,6 +6,8 @@
 
 Scientific table analysis involves several decisions with different authority: fixing the object of study, identifying what remains unknown, selecting the next question, designing a calculation, executing it, and deciding what the result supports. The project represents these decisions explicitly instead of giving every role the same global conversation. Geochronology provides concrete cases where an age peak, a spatial trend and a geological event are related but require different evidential claims.
 
+The asymmetric organization addresses two design concerns together: local errors entering later decisions and information being lost as agents delegate, summarize and relay work. Explicit task constraints, structured result packets and retrievable tool records are intended to preserve research intent, scope conditions and evidence across these handoffs.
+
 ## I/U/P/D/R/W mainline
 
 The [mixed implementation](../src/mix_epistemic_research_agent.py) uses a compiled outer LangGraph and an R subgraph. The model supplies scientific semantics through structured role contracts; Python assigns identities, validates structure, projects inputs and routes execution.
