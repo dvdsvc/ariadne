@@ -52,14 +52,20 @@ Stage dependencies, separate evidence records and checkpoints allow completed wo
 
 The Mixed mainline uses six functional roles. They share a research task but receive different inputs and carry different decision responsibilities.
 
-| Role | Responsibility and authority |
-|---|---|
-| Interpretation (I) | Register the research object, user boundaries and requested output |
-| Updater (U) | Combine prior understanding and new department reports to update evidence status, open questions and research understanding |
-| Planner (P) | Select one existing open item from U for the next investigation |
-| Department (D) | Issue a bounded technical task, review R's plan and summarize technical results and interpretive limits |
-| Researcher (R) | Author and execute a local DAG, select tools and parameters, and submit a technical packet |
-| Writer (W) | Organize the final report from U's current research state |
+### 3.1 Asymmetric Architecture: Context Boundaries and Decision Authority
+
+Ariadne's asymmetry is not simply a matter of assigning different prompts to different agents. Through role-specific state projections, structured inputs and outputs, and runtime-enforced authority boundaries, each role makes decisions at a different level of the same research task.
+
+**Different roles neither need identical context nor should have identical authority to modify the research state.**
+
+| Role | Context received | Autonomy and limits | Output |
+|---|---|---|---|
+| **I — Interpretation** | Original user question; the runtime attaches the epistemic policy | Defines the research object, boundaries, and requested output; does not design the technical execution plan | `InquiryConstitution`, the research constitution |
+| **U — Updater** | Research constitution; in subsequent cycles, the prior epistemic snapshot and newly returned D report | Updates supported findings, uncertainty, and open questions; does not execute calculations | `EpistemicSnapshot`, the current research understanding |
+| **P — Planner** | Research constitution and U's epistemic snapshot | Selects one existing open item to investigate; does not invent new items or prescribe tool parameters | `selected_item_id`, the selected investigation item |
+| **D — Department** | Selected local item, research constitution, and R's capability envelope; subsequently, R's plan and technical results | Sets task scope and acceptance criteria and reviews R's local DAG; does not author R's technical plan | `TechnicalTask`, `DPlanReview`, `DepartmentReport` |
+| **R — Researcher** | D-issued technical task, registered data sources and tools, approved local DAG, and execution results within the current stage's dependencies | Selects algorithms, tools, parameters, and local steps within the authorized task; cannot unilaterally change the research goal or approved DAG topology | Execution plan, tool-call records, `TechnicalResults` |
+| **W — Writer** | Research constitution and U's current epistemic state | Produces the final report from existing evidence; does not launch an independent investigation | `WriterOutput` |
 
 ```mermaid
 flowchart LR
@@ -73,15 +79,35 @@ flowchart LR
     R <--> T[Registered data and science tools]
 ```
 
-### 3.1 Researcher's local autonomy
+#### Why restrict context?
+
+If every node reads the entire history, later roles may encounter transient information unrelated to their current task or treat unverified interpretations as established premises. Ariadne therefore distinguishes three kinds of information:
+
+- **Research constraints:** The research object, task boundaries, and open questions are carried through explicit task identities.
+- **Local execution information:** A technical stage receives data and results according to its local DAG dependencies; transient reads from sibling stages are not automatically included.
+- **Evidence records:** Objective tool-call records are stored separately and linked by identity to technical packets, department reports, and the epistemic state. Each role need not replay every raw trace.
+
+The aim is to preserve two kinds of autonomy at once: **upstream roles govern research direction and evidence interpretation, while downstream roles retain freedom to choose technical methods.**
+
+#### How does a task cross these information boundaries?
+
+Consider comparing age distributions across different lithologies in a region.
+
+I fixes the research object and data scope. U identifies unresolved comparison questions. P selects one of those questions. D turns it into a technical task with explicit acceptance criteria. R independently chooses how to filter samples, compute age statistics, and test robustness.
+
+R's numerical outputs do not become scientific conclusions directly. D first summarizes their technical basis and interpretive limits, then U updates the research state. W prepares the final report only when that state meets the termination condition.
+
+The design separates **technical autonomy, scientific interpretation, and evidence-write authority**, while using structured handoffs to preserve critical constraints.
+
+### 3.2 Researcher's local autonomy
 
 R first claims the exact task issued by D, then proposes a finite technical DAG with stage objectives and dependencies. D reviews its scope; R retains the choice of tools, algorithms and parameters. Each U/P cycle yields one D task, and further investigation requires another research-decision cycle.
 
-### 3.2 Select context by task dependencies
+### 3.3 Select context by task dependencies
 
 A stage primarily receives results from its DAG dependencies; transient data from sibling stages do not automatically enter its context. Complete execution records remain available for audit without replaying the entire history at every call. The Fixed-U executor further packages stage results for parallel consumption by ready workers.
 
-### 3.3 How does evidence move between roles?
+### 3.4 How does evidence move between roles?
 
 The main chain is **tool call → objective record → technical packet → department report → research state → final report**. Runtime code binds call, task, packet and report identities. Higher-level roles can reference completed analyses while preserving uncertainty and the scope of their conclusions.
 
