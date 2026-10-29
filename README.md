@@ -4,9 +4,9 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-Ariadne is a multi-agent research prototype for long-horizon scientific investigation, with geochronology database analysis as its main application. It turns questions into data investigations and scientific calculations, accumulates evidence, and uses that evidence to revise understanding and produce a report.
+**Research question:** How can long-horizon agents preserve information across handoffs and contain errors in dependent decisions? **Method:** Asymmetric I/U/P/D/R/W roles, authorized local DAGs, structured evidence packets and checkpointed execution in LangGraph. **Key findings:** The offline Fixed-U protocol reaches the Writer through parallel tasks and evidence merging; 64 existing tests cover role contracts, execution controls and scientific tools.
 
-The central question is: **When research involves many dependent steps, how can information loss between agents be reduced, local errors be contained, and execution remain inspectable, correctable and recoverable?** The architecture draws on separation of responsibilities, delegated authority and feedback to assign different decision boundaries to scientific interpretation, research planning, technical execution and evidence management.
+[Architecture](docs/methods.md) · [Execution evidence](docs/experiments.md)
 
 ## 1. Motivation: Error Accumulation and Information Loss
 
